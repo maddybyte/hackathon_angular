@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Fees/Fine Report</title>
+   <style>
+    .div-center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;  }
+
+  </style>
+
+</head>
+<body>
+  
+    <h1 align="center">Fees Or Fine Report</h1> <br> <br>
+
+  <div class="div-center"> 
+    <form action="action_page.php">
+        <div class="container">
+         
+          
+          <div class="table-responsive">
+            <table class="table table-hover">
+             
+                <tr>
+                  <td><label for="from date"><b>From Date</b></label></td>
+                   <td><input type="date" placeholder="Fetch from database" name="fromdate" id="fromdate" required></td>
+                </tr>
+                <tr>
+                  <td><label for="to date"><b>To Date</b></label></td>
+                  <td><input type="date" placeholder="Enter To Date" name="todate" id="todate" required></td>
+                </tr>
+              
+            </table>
+            <div class="btn-center">
+
+            </div>
+            <button type="submit" class="btn btn-success" id="addnewcopy" name="addnewcopy">Show Report</button>
+          </div>
+        </div>
+    </form>
+           <br>
+           <div class="table-responsive">
+             <table class="table table-hover">
+               <thead>
+                 <tr>
+                   <th>Type</th>
+                   <th>Amount</th>
+                 </tr>
+               </thead>
+               <tbody>
+                 <tr>
+                   <td></td>
+                   <td></td>
+                 </tr>
+               </tbody>
+             </table>
+           </div>
+           
+  </div>
+</body>
+</html>
